@@ -1,7 +1,7 @@
 #include <iostream>
-#include "main.h"
+#include "graphyJsonModule.h"
 
 int main()
 {
-	std::cout << "hello world" << " " << example::test() << std::endl;
+    std::cout << "hello world" << " " << graphyJsonModule::test() << std::endl;
 }

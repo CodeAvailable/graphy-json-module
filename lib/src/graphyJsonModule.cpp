@@ -1,6 +1,6 @@
-#include "main.h"
+#include "graphyJsonModule.h"
 
-namespace example
+namespace graphyJsonModule
 {
 #ifdef _WIN32
 	long _stdcall test()
@@ -8,6 +8,6 @@ namespace example
 	long test()
 #endif
 	{
-		return 0;
+        return 1;
 	}
 }
