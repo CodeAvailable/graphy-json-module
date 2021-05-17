@@ -10,7 +10,7 @@ class graphyJsonModuleConan(ConanFile):
     generators = 'cmake'
     options = {'shared': [True, False]}
     default_options = 'shared=False'
-    requires = ('boost/1.71.0@conan/stable','rapidjson/1.1.0@bincrafters/stable','log4cplus/2.0.4@bincrafters/stable')
+    requires = ('boost/1.76.0','rapidjson/cci.20200410','log4cplus/2.0.5')
 
     def build(self):
         cmake = CMake(self)
